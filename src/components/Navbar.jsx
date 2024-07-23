@@ -2,7 +2,7 @@ import NavbarLink from "./NavbarLink";
 
 export default function Navbar() {
   const links = [
-    ["About Us", ""],
+    ["About Us", "about-us"],
     ["Academics", ""],
     ["Admissions", ""],
     ["Faculty", ""],
@@ -18,8 +18,8 @@ export default function Navbar() {
         </a>
 
         <ul className="flex w-2/3 justify-around items-center">
-          {links.map((link) => {
-            return <NavbarLink name={link[0]} link={link[1]} />;
+          {links.map((link, index) => {
+            return <NavbarLink name={link[0]} link={link[1]} key={index} />;
           })}
         </ul>
       </div>
