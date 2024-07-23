@@ -1,4 +1,4 @@
-import Carousel from "../Homepage/Carousel";
+import AboutUsCarousel from "./AboutUsCarousel";
 
 export default function Content() {
   return (
@@ -6,12 +6,12 @@ export default function Content() {
       <div className="flex flex-col w-5/6">
         <div className="mt-10">
           <h3 className="text-2xl font-semibold text-gray-900">
-            About Sudeev Institutions
+            About Springdale Public School
           </h3>
           <p className="mt-2 text-gray-500 leading-relaxed">
-            Welcome to Sudeev Institutions, a place where we nurture and educate
-            young minds to become the leaders of tomorrow. Established in 2024,
-            our school has a rich history of academic excellence and a
+            Welcome to Springdale Public School, a place where we nurture and
+            educate young minds to become the leaders of tomorrow. Established
+            in 1985, our school has a rich history of academic excellence and a
             commitment to fostering a supportive and inclusive learning
             environment.
           </p>
@@ -20,24 +20,20 @@ export default function Content() {
         <div className="mt-10">
           <h3 className="text-2xl font-semibold text-gray-900">Our Mission</h3>
           <p className="mt-2 text-gray-500 leading-relaxed">
-            Our mission is to provide a holistic education that not only
-            emphasizes academic achievements but also focuses on the overall
-            development of our students. We aim to cultivate critical thinking,
-            creativity, and a sense of social responsibility in every student.
+            To empower students with the knowledge, skills, and values needed to
+            thrive in a dynamic world.
           </p>
         </div>
 
         <div className="mt-10 mb-10">
           <h3 className="text-2xl font-semibold text-gray-900">Our Vision</h3>
           <p className="mt-2 text-gray-500 leading-relaxed">
-            Our vision is to be a leading educational institution known for its
-            innovative teaching methods and outstanding student outcomes. We
-            strive to create an environment where students are encouraged to
-            explore their passions and reach their full potential.
+            To create a learning environment that fosters academic excellence,
+            critical thinking, and ethical values.
           </p>
         </div>
 
-        <Carousel />
+        <AboutUsCarousel />
 
         <div className="mt-10">
           <h3 className="text-2xl font-semibold text-gray-900">Our Values</h3>
@@ -67,12 +63,8 @@ export default function Content() {
         <div className="mt-10">
           <h3 className="text-2xl font-semibold text-gray-900">Our History</h3>
           <p className="mt-2 text-gray-500 leading-relaxed">
-            Sudeev Institutions was founded in 2024 with the goal of providing
-            quality education to the local community. Over the years, we have
-            grown and evolved, adapting to the changing educational landscape
-            while staying true to our core values. Today, we are proud to be a
-            school that not only excels academically but also fosters a
-            supportive and nurturing environment for all our students.
+            Founded in 1985, Springdale Public School has been dedicated to
+            providing quality education and holistic development to students.
           </p>
         </div>
 
@@ -80,13 +72,10 @@ export default function Content() {
           <h3 className="text-2xl font-semibold text-gray-900">
             Message from the Principal
           </h3>
+          <img src="./sudeev.jpg" alt="" className="rounded-full mt-8 mb-8" />
           <p className="mt-2 text-gray-500 leading-relaxed">
-            Welcome to Sudeev Institutions. As the Principal, I am proud to lead
-            a team of dedicated educators committed to providing exceptional
-            educational experiences. Our school is built on a foundation of
-            excellence, integrity, and a deep commitment to our students' growth
-            and development. We look forward to partnering with you in the
-            journey of learning and achievement.
+            At Springdale, we believe in nurturing the potential of every
+            student and guiding them towards a successful future.
           </p>
         </div>
 
@@ -102,7 +91,7 @@ export default function Content() {
                 className="w-full h-48 object-cover rounded-lg"
               />
               <h4 className="mt-4 text-lg font-semibold text-gray-900">
-                Modern Classrooms
+                Spacious and well-equipped classrooms
               </h4>
               <p className="mt-2 text-gray-600">
                 Our modern classrooms are equipped with the latest technology to
@@ -117,7 +106,7 @@ export default function Content() {
                 className="w-full h-48 object-cover rounded-lg"
               />
               <h4 className="mt-4 text-lg font-semibold text-gray-900">
-                Well-Stocked Library
+                Library with a vast collection of books and digital resources
               </h4>
               <p className="mt-2 text-gray-600">
                 Our library offers a wide range of books, digital resources, and
@@ -132,7 +121,8 @@ export default function Content() {
                 className="w-full h-48 object-cover rounded-lg"
               />
               <h4 className="mt-4 text-lg font-semibold text-gray-900">
-                Sports Facilities
+                Sports facilities including a playground, gymnasium, and
+                swimming pool
               </h4>
               <p className="mt-2 text-gray-600">
                 We provide extensive sports facilities, including playgrounds
@@ -148,11 +138,12 @@ export default function Content() {
                 className="w-full h-48 object-cover rounded-lg"
               />
               <h4 className="mt-4 text-lg font-semibold text-gray-900">
-                State-of-the-Art Science Labs
+                State-of-the-art science and computer labs
               </h4>
               <p className="mt-2 text-gray-600">
-                Our science labs are equipped with the latest equipment and
-                resources to provide hands-on learning experiences.
+                Our science and computer labs are equipped with the latest
+                equipment and resources to provide hands-on learning
+                experiences.
               </p>
             </div>
 
