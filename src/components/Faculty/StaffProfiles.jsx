@@ -61,6 +61,7 @@ export default function StaffProfiles() {
             <div key={staff.name} className="bg-white p-6 rounded-lg shadow-lg">
               <div className="flex items-center">
                 <img
+                  loading="lazy"
                   src={staff.image}
                   alt={staff.name}
                   className="w-24 h-24 object-cover rounded-full border-2 border-gray-300"

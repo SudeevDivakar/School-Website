@@ -8,13 +8,18 @@ export default function Navbar() {
     ["Faculty", "faculty"],
     ["Students", ""],
     ["Gallery", ""],
-    ["Contact Us", ""],
+    ["Contact Us", "contact-us"],
   ];
   return (
     <>
       <div className="flex h-14 justify-between border-b">
         <a href="/" className="w-1/3">
-          <img src="./logo.avif" alt="" className="h-14 border-b ml-10" />
+          <img
+            loading="lazy"
+            src="./logo.avif"
+            alt=""
+            className="h-14 border-b ml-10"
+          />
         </a>
 
         <ul className="flex w-2/3 justify-around items-center">

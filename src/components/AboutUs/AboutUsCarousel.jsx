@@ -42,6 +42,7 @@ export default function AboutUsCarousel() {
               >
                 <img
                   src={src}
+                  loading="lazy"
                   alt={`Image ${index + 1}`}
                   className="w-full h-full object-cover "
                 />

@@ -19,6 +19,7 @@ export default function CurriculumInfo() {
           <div className="mt-6 flex flex-wrap lg:flex-nowrap lg:items-center">
             <div className="w-full lg:w-1/2 p-4">
               <img
+                loading="lazy"
                 src="./curriculum1.jpg"
                 alt="Primary Curriculum"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
@@ -41,6 +42,7 @@ export default function CurriculumInfo() {
           <div className="mt-6 flex flex-wrap lg:flex-nowrap lg:items-center">
             <div className="w-full lg:w-1/2 p-4">
               <img
+                loading="lazy"
                 src="./curriculum2.webp"
                 alt="Secondary Curriculum"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
@@ -63,6 +65,7 @@ export default function CurriculumInfo() {
           <div className="mt-6 flex flex-wrap lg:flex-nowrap lg:items-center">
             <div className="w-full lg:w-1/2 p-4">
               <img
+                loading="lazy"
                 src="./curriculum3.jpg"
                 alt="Senior Secondary Curriculum"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
@@ -92,6 +95,7 @@ export default function CurriculumInfo() {
             <div className="w-full lg:w-1/2 p-4">
               <img
                 src="./teaching.avif"
+                loading="lazy"
                 alt="Teaching Methodologies"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
@@ -114,6 +118,7 @@ export default function CurriculumInfo() {
             <div className="w-full lg:w-1/2 p-4">
               <img
                 src="./books.webp"
+                loading="lazy"
                 alt="Educational Resources"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />

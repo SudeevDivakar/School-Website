@@ -41,6 +41,7 @@ export default function Carousel() {
                 style={{ height: "40rem" }}
               >
                 <img
+                  loading="lazy"
                   src={src}
                   alt={`Image ${index + 1}`}
                   className="w-full h-full object-cover "

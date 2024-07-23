@@ -72,7 +72,12 @@ export default function Content() {
           <h3 className="text-2xl font-semibold text-gray-900">
             Message from the Principal
           </h3>
-          <img src="./johndoe.jpeg" alt="" className="rounded-full mt-8 mb-8" />
+          <img
+            src="./johndoe.jpeg"
+            alt=""
+            loading="lazy"
+            className="rounded-full mt-8 mb-8"
+          />
           <p className="mt-2 text-gray-500 leading-relaxed">
             At Springdale, we believe in nurturing the potential of every
             student and guiding them towards a successful future.
@@ -87,6 +92,7 @@ export default function Content() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <img
                 src="./modern_classrooms.jpg"
+                loading="lazy"
                 alt="Classroom"
                 className="w-full h-48 object-cover rounded-lg"
               />
@@ -102,6 +108,7 @@ export default function Content() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <img
                 src="./well_stocked_libraries.jpg"
+                loading="lazy"
                 alt="Library"
                 className="w-full h-48 object-cover rounded-lg"
               />
@@ -118,6 +125,7 @@ export default function Content() {
               <img
                 src="./sports_facilities.jpg"
                 alt="Sports Facilities"
+                loading="lazy"
                 className="w-full h-48 object-cover rounded-lg"
               />
               <h4 className="mt-4 text-lg font-semibold text-gray-900">
@@ -135,6 +143,7 @@ export default function Content() {
               <img
                 src="./science_lab.avif"
                 alt="Science Labs"
+                loading="lazy"
                 className="w-full h-48 object-cover rounded-lg"
               />
               <h4 className="mt-4 text-lg font-semibold text-gray-900">
@@ -150,6 +159,7 @@ export default function Content() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <img
                 src="./music_room.webp"
+                loading="lazy"
                 alt="Art and Music Room"
                 className="w-full h-48 object-cover rounded-lg"
               />
@@ -165,6 +175,7 @@ export default function Content() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <img
                 src="./cafeteria.jpeg"
+                loading="lazy"
                 alt="Cafeteria"
                 className="w-full h-48 object-cover rounded-lg"
               />
