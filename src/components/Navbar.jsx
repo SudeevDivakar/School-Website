@@ -5,7 +5,7 @@ export default function Navbar() {
     ["About Us", "about-us"],
     ["Academics", "academics"],
     ["Admissions", ""],
-    ["Faculty", ""],
+    ["Faculty", "faculty"],
     ["Students", ""],
     ["Gallery", ""],
     ["Contact Us", ""],
