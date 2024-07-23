@@ -72,7 +72,7 @@ export default function Content() {
           <h3 className="text-2xl font-semibold text-gray-900">
             Message from the Principal
           </h3>
-          <img src="./sudeev.jpg" alt="" className="rounded-full mt-8 mb-8" />
+          <img src="./johndoe.jpeg" alt="" className="rounded-full mt-8 mb-8" />
           <p className="mt-2 text-gray-500 leading-relaxed">
             At Springdale, we believe in nurturing the potential of every
             student and guiding them towards a successful future.

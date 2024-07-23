@@ -19,7 +19,7 @@ export default function CurriculumInfo() {
           <div className="mt-6 flex flex-wrap lg:flex-nowrap lg:items-center">
             <div className="w-full lg:w-1/2 p-4">
               <img
-                src="./curriculum2.jpg"
+                src="./curriculum1.jpg"
                 alt="Primary Curriculum"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
@@ -41,7 +41,7 @@ export default function CurriculumInfo() {
           <div className="mt-6 flex flex-wrap lg:flex-nowrap lg:items-center">
             <div className="w-full lg:w-1/2 p-4">
               <img
-                src="./curriculum.jpg"
+                src="./curriculum2.webp"
                 alt="Secondary Curriculum"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
@@ -63,7 +63,7 @@ export default function CurriculumInfo() {
           <div className="mt-6 flex flex-wrap lg:flex-nowrap lg:items-center">
             <div className="w-full lg:w-1/2 p-4">
               <img
-                src="./senior_secondary_curriculum.jpg"
+                src="./curriculum3.jpg"
                 alt="Senior Secondary Curriculum"
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
