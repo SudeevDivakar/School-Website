@@ -3,7 +3,7 @@ import NavbarLink from "./NavbarLink";
 export default function Navbar() {
   const links = [
     ["About Us", "about-us"],
-    ["Academics", ""],
+    ["Academics", "academics"],
     ["Admissions", ""],
     ["Faculty", ""],
     ["Students", ""],
@@ -14,7 +14,7 @@ export default function Navbar() {
     <>
       <div className="flex h-14 justify-between border-b">
         <a href="/" className="w-1/3">
-          <img src="./logo.avif" alt="" className="h-14 border-b ml-4" />
+          <img src="./logo.avif" alt="" className="h-14 border-b ml-10" />
         </a>
 
         <ul className="flex w-2/3 justify-around items-center">
