@@ -83,15 +83,23 @@ export default function ContactPage() {
         {/* Google Maps Integration */}
         <div className="mt-12 bg-white rounded-md shadow-2xl p-7">
           <h3 className="text-2xl font-semibold text-gray-900">Our Location</h3>
-          <div className="mt-6 relative w-full h-full">
+          <div
+            className="mt-6 relative w-full"
+            style={{ paddingBottom: "56.25%" }}
+          >
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7418.3190086190925!2d-121.49959779747152!3d38.5794118749864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1721765316507!5m2!1sen!2sin"
-              width="1200"
-              height="600"
-              style={{ border: "0" }}
-              allowfullscreen=""
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+                border: 0,
+              }}
+              allowFullScreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
         </div>
