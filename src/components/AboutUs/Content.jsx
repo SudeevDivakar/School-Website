@@ -2,7 +2,7 @@ import AboutUsCarousel from "./AboutUsCarousel";
 
 export default function Content() {
   return (
-    <div className="w-full mt-16 flex justify-center">
+    <div className="w-full pt-16 flex justify-center bg-gray-100">
       <div className="flex flex-col w-5/6">
         <div className="mt-10">
           <h3 className="text-2xl font-semibold text-gray-900">

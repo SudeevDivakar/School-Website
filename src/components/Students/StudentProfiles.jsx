@@ -1,10 +1,8 @@
-import React from "react";
-
 export default function StudentProfiles() {
   return (
     <div className="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-gray-900 p-2 border-2 border-slate-600 rounded-lg mb-6 inline-block sm:text-4xl">
+        <h2 className="text-3xl font-bold text-gray-900 p-2 border-2 border-slate-600 rounded-lg mb-6 inline-block sm:text-4xl bg-white">
           Life at Springdale
         </h2>
 
@@ -14,74 +12,43 @@ export default function StudentProfiles() {
             Extracurricular Activities
           </h3>
           <div className="flex flex-wrap mt-6">
-            <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
-              <img
-                src="./student_music.jpg"
-                alt="Music"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
-              <p className="mt-2 text-lg text-gray-500 text-center">Music</p>
-            </div>
-            <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
-              <img
-                src="./students_dancing.webp"
-                alt="Dance"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
-              <p className="mt-2 text-lg text-gray-500 text-center">Dance</p>
-            </div>
-            <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
-              <img
-                src="./students_drama.webp"
-                alt="Drama"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
-              <p className="mt-2 text-lg text-gray-500 text-center">Drama</p>
-            </div>
-            <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
-              <img
-                src="./students_art.jpg"
-                alt="Art"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
-              <p className="mt-2 text-lg text-gray-500 text-center">Art</p>
-            </div>
-            <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
-              <img
-                src="./students_sport.jpg"
-                alt="Sports"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
-              <p className="mt-2 text-lg text-gray-500 text-center">Sports</p>
-            </div>
-            <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
-              <img
-                src="./students_robotics.jpg"
-                alt="Robotics"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
-              <p className="mt-2 text-lg text-gray-500 text-center">Robotics</p>
-            </div>
-            <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
-              <img
-                src="./students_debate.webp"
-                alt="Debate Club"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
-              <p className="mt-2 text-lg text-gray-500 text-center">
-                Debate Club
-              </p>
-            </div>
-            <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
-              <img
-                src="./students_science.jpg"
-                alt="Science Club"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
-              <p className="mt-2 text-lg text-gray-500 text-center">
-                Science Club
-              </p>
-            </div>
+            {[
+              { src: "./student_music.jpg", alt: "Music", label: "Music" },
+              { src: "./students_dancing.webp", alt: "Dance", label: "Dance" },
+              { src: "./students_drama.webp", alt: "Drama", label: "Drama" },
+              { src: "./students_art.jpg", alt: "Art", label: "Art" },
+              { src: "./students_sport.jpg", alt: "Sports", label: "Sports" },
+              {
+                src: "./students_robotics.jpg",
+                alt: "Robotics",
+                label: "Robotics",
+              },
+              {
+                src: "./students_debate.webp",
+                alt: "Debate Club",
+                label: "Debate Club",
+              },
+              {
+                src: "./students_science.jpg",
+                alt: "Science Club",
+                label: "Science Club",
+              },
+            ].map((activity, index) => (
+              <div
+                className="w-full sm:w-1/2 lg:w-1/4 p-4 activity-card"
+                key={index}
+              >
+                <img
+                  loading="lazy"
+                  src={activity.src}
+                  alt={activity.alt}
+                  className="w-full h-64 object-cover rounded-lg shadow-md"
+                />
+                <p className="mt-2 text-lg text-gray-500 text-center">
+                  {activity.label}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
 
@@ -91,46 +58,43 @@ export default function StudentProfiles() {
             Clubs and Societies
           </h3>
           <div className="flex flex-wrap mt-6">
-            <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
-              <img
-                src="./literary_club.jpg"
-                alt="Literary Society"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
-              <p className="mt-2 text-lg text-gray-500 text-center">
-                Literary Society
-              </p>
-            </div>
-            <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
-              <img
-                src="./environmental_club.jpeg"
-                alt="Environmental Club"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
-              <p className="mt-2 text-lg text-gray-500 text-center">
-                Environmental Club
-              </p>
-            </div>
-            <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
-              <img
-                src="./astronomy_club.jpeg"
-                alt="Astronomy Club"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
-              <p className="mt-2 text-lg text-gray-500 text-center">
-                Astronomy Club
-              </p>
-            </div>
-            <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
-              <img
-                src="./coding_club.jpg"
-                alt="Coding Club"
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
-              <p className="mt-2 text-lg text-gray-500 text-center">
-                Coding Club
-              </p>
-            </div>
+            {[
+              {
+                src: "./literary_club.jpg",
+                alt: "Literary Society",
+                label: "Literary Society",
+              },
+              {
+                src: "./environmental_club.jpeg",
+                alt: "Environmental Club",
+                label: "Environmental Club",
+              },
+              {
+                src: "./astronomy_club.jpeg",
+                alt: "Astronomy Club",
+                label: "Astronomy Club",
+              },
+              {
+                src: "./coding_club.jpg",
+                alt: "Coding Club",
+                label: "Coding Club",
+              },
+            ].map((club, index) => (
+              <div
+                className="w-full sm:w-1/2 lg:w-1/4 p-4 activity-card"
+                key={index}
+              >
+                <img
+                  loading="lazy"
+                  src={club.src}
+                  alt={club.alt}
+                  className="w-full h-64 object-cover rounded-lg shadow-md"
+                />
+                <p className="mt-2 text-lg text-gray-500 text-center">
+                  {club.label}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
 
@@ -140,31 +104,44 @@ export default function StudentProfiles() {
             Achievements
           </h3>
           <ul className="mt-4 text-lg text-gray-500 leading-loose text-xl list-disc list-inside">
-            <li className="flex items-center mt-4">
-              <img
-                src="./johnsmith.jpg"
-                alt="John Smith"
-                className="w-16 h-16 object-cover rounded-full shadow-md mr-4"
-              />
-              <b>John Smith</b> - National Level Math Olympiad Winner
-            </li>
-            <li className="flex items-center mt-4">
-              <img
-                src="./sarahlee.jpeg"
-                alt="Sarah Lee"
-                className="w-16 h-16 object-cover rounded-full shadow-md mr-4"
-              />
-              <b>Sarah Lee</b> - Gold Medalist in State Swimming Championship
-            </li>
-            <li className="flex items-center mt-4">
-              <img
-                src="./tech_innovators.webp"
-                alt="Tech Innovators Club"
-                className="w-16 h-16 object-cover rounded-full shadow-md mr-4"
-              />
-              <b>Tech Innovators Club</b> - Winners of Inter-School Robotics
-              Competition
-            </li>
+            {[
+              {
+                src: "./johnsmith.jpg",
+                alt: "John Smith",
+                label: "John Smith",
+                description: "National Level Math Olympiad Winner",
+              },
+              {
+                src: "./sarahlee.jpeg",
+                alt: "Sarah Lee",
+                label: "Sarah Lee",
+                description: "Gold Medalist in State Swimming Championship",
+              },
+              {
+                src: "./tech_innovators.webp",
+                alt: "Tech Innovators Club",
+                label: "Tech Innovators Club",
+                description: "Winners of Inter-School Robotics Competition",
+              },
+            ].map((achievement, index) => (
+              <li
+                className="flex flex-col items-start mt-4 sm:flex-row sm:items-center"
+                key={index}
+              >
+                <img
+                  loading="lazy"
+                  src={achievement.src}
+                  alt={achievement.alt}
+                  className="w-16 h-16 object-cover rounded-full shadow-md mr-4"
+                />
+                <div>
+                  <b className="block sm:inline">{achievement.label}</b>{" "}
+                  <span className="block sm:inline">
+                    - {achievement.description}
+                  </span>
+                </div>
+              </li>
+            ))}
           </ul>
         </div>
 
@@ -174,36 +151,45 @@ export default function StudentProfiles() {
             Student Council
           </h3>
           <div className="flex flex-wrap mt-6">
-            <div className="w-full sm:w-1/2 lg:w-1/4 p-4 bg-white">
-              <img
-                src="./amyparker.jpeg"
-                alt="Amy Parker"
-                className="w-24 h-24 object-cover rounded-full shadow-md mx-auto"
-              />
-              <p className="mt-4 text-lg text-gray-500 text-center">
-                <b>President</b> <br /> Amy Parker <br /> Grade 12
-              </p>
-            </div>
-            <div className="w-full sm:w-1/2 lg:w-1/4 p-4 bg-white">
-              <img
-                src="./rajhivmehta.webp"
-                alt="Rajiv Mehta"
-                className="w-24 h-24 object-cover rounded-full shadow-md mx-auto"
-              />
-              <p className="mt-4 text-lg text-gray-500 text-center">
-                <b>Vice President</b> <br /> Rajiv Mehta <br /> Grade 11
-              </p>
-            </div>
-            <div className="w-full sm:w-1/2 lg:w-1/4 p-4 bg-white">
-              <img
-                src="./lisawong.jpeg"
-                alt="Lisa Wong"
-                className="w-24 h-24 object-cover rounded-full shadow-md mx-auto"
-              />
-              <p className="mt-4 text-lg text-gray-500 text-center">
-                <b>Secretary</b> <br /> Lisa Wong <br /> Grade 10
-              </p>
-            </div>
+            {[
+              {
+                src: "./amyparker.jpeg",
+                alt: "Amy Parker",
+                label: "Amy Parker",
+                title: "President",
+                grade: "Grade 12",
+              },
+              {
+                src: "./rajhivmehta.webp",
+                alt: "Rajiv Mehta",
+                label: "Rajiv Mehta",
+                title: "Vice President",
+                grade: "Grade 11",
+              },
+              {
+                src: "./lisawong.jpeg",
+                alt: "Lisa Wong",
+                label: "Lisa Wong",
+                title: "Secretary",
+                grade: "Grade 10",
+              },
+            ].map((councilMember, index) => (
+              <div
+                className="w-full sm:w-1/2 lg:w-1/4 p-4 rounded-lg council-card"
+                key={index}
+              >
+                <img
+                  loading="lazy"
+                  src={councilMember.src}
+                  alt={councilMember.alt}
+                  className="w-24 h-24 object-cover rounded-full shadow-md mx-auto"
+                />
+                <p className="mt-4 text-lg text-gray-500 text-center">
+                  <b className="text-black">{councilMember.title}</b> <br />{" "}
+                  {councilMember.label} <br /> {councilMember.grade}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </div>

@@ -7,6 +7,7 @@ import ContactUs from "./Pages/ContactUs/ContactUs";
 import Students from "./Pages/Students/Students";
 import Gallery from "./Pages/Gallery/Gallery";
 import GallerySpecific from "./Pages/GallerySpecific/GallerySpecific";
+import Admissions from "./Pages/Admissions/Admissions";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/students" element={<Students />}></Route>
       <Route path="/gallery" element={<Gallery />}></Route>
       <Route path="/gallery/:id" element={<GallerySpecific />}></Route>
+      <Route path="/admissions" element={<Admissions />}></Route>
     </Routes>
   );
 }
