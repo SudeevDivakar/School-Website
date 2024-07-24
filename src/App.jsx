@@ -6,6 +6,7 @@ import Faculty from "./Pages/Faculty/Faculty";
 import ContactUs from "./Pages/ContactUs/ContactUs";
 import Students from "./Pages/Students/Students";
 import Gallery from "./Pages/Gallery/Gallery";
+import GallerySpecific from "./Pages/GallerySpecific/GallerySpecific";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path="/contact-us" element={<ContactUs />}></Route>
       <Route path="/students" element={<Students />}></Route>
       <Route path="/gallery" element={<Gallery />}></Route>
+      <Route path="/gallery/:id" element={<GallerySpecific />}></Route>
     </Routes>
   );
 }

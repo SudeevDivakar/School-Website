@@ -5,7 +5,7 @@ export default function GallerySection({ section }) {
         {section.name}
       </h2>
       <a
-        href={`http://localhost:5173/gallery/${section.redirectUrl}`}
+        href={`http://localhost:5173/gallery/${section.redirectLink}`}
         className="text-white bg-amber-500 p-2 rounded-lg"
       >
         See More

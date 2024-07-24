@@ -5,19 +5,19 @@ export default function GalleryContent() {
     {
       name: "Sports Day",
       imgSource: "https://c.tadst.com/gfx/750w/sport-day-un.jpg",
-      redirectLink: "sports-day",
+      redirectLink: "sportsDay",
     },
     {
       name: "Science Exhibition",
       imgSource:
         "https://upload.wikimedia.org/wikipedia/commons/3/32/Usa_science_and_engineering_festival_%2814062155971%29.jpg",
-      redirectLink: "science-exhibition",
+      redirectLink: "scienceExhibition",
     },
     {
       name: "Cultural Fest",
       imgSource:
         "https://www.bakerschoolpto.org/uploads/1/2/5/0/12506508/8043654_orig.jpg",
-      redirectLink: "cultural-fest",
+      redirectLink: "culturalFest",
     },
     {
       name: "Classrooms",
