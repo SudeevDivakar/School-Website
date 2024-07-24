@@ -5,7 +5,7 @@ export default function GallerySection({ section }) {
         {section.name}
       </h2>
       <a
-        href={`http://localhost:5173/gallery/${section.redirectLink}`}
+        href={`${import.meta.env.VITE_DOMAIN}/gallery/${section.redirectLink}`}
         className="text-white bg-amber-500 p-2 rounded-lg"
       >
         See More
