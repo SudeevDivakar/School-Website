@@ -36,6 +36,18 @@ export default function GalleryContent() {
     <div className="w-full flex justify-center">
       <div className="w-4/6 flex flex-col">
         <h1 className="text-5xl font-bold mt-10">Gallery</h1>
+        <div className="mt-10">
+          <iframe
+            width="100%"
+            height="360"
+            src="https://www.youtube.com/embed/Hx0C4XQJh6Y"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="rounded-lg shadow-md"
+          ></iframe>
+        </div>
         {events.map((section, index) => {
           return <GallerySection section={section} key={index} />;
         })}
