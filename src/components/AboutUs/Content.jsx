@@ -88,7 +88,7 @@ export default function Content() {
           <h3 className="text-2xl font-semibold text-gray-900">
             Our Infrastructure and Facilities
           </h3>
-          <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <img
                 src="./modern_classrooms.jpg"

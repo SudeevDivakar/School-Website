@@ -17,7 +17,7 @@ export default function HomePageContent() {
 
       <section className="w-full p-6 text-center ot-8 bg-blue-400">
         <h2 className="text-2xl font-bold text-gray-900 mb-4 text-white">
-          Where excellence meets quality
+          Inspiring Excellence Every Day
         </h2>
         <p className="text-lg text-gray-700 mb-5 text-white">
           Welcome to Springdale Public School, where we nurture young minds for
@@ -29,7 +29,7 @@ export default function HomePageContent() {
 
       <section className="w-full bg-orange-400 py-12 px-6 text-center text-white">
         <h2 className="text-2xl font-bold mb-4">
-          Where excellence meets quality
+          Empowering Minds, Shaping Futures
         </h2>
         <div className="flex flex-wrap justify-center items-center">
           <div className="w-full md:w-1/2 lg:w-1/3 p-4">
