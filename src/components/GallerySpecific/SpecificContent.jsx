@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 
 export default function SpecificContent() {
   const params = useParams();
+
   const content = {
     sportsDay: {
       name: "Sports Day",
@@ -56,6 +57,10 @@ export default function SpecificContent() {
       ],
     },
   };
+
+  if (content[params.id] === undefined) {
+    window.location.href = `${import.meta.env.VITE_DOMAIN}/*`;
+  }
 
   return (
     <div className="bg-gray-100 pb-12 pt-24 px-4 sm:px-6 lg:px-8">

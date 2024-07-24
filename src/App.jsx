@@ -8,6 +8,7 @@ import Students from "./Pages/Students/Students";
 import Gallery from "./Pages/Gallery/Gallery";
 import GallerySpecific from "./Pages/GallerySpecific/GallerySpecific";
 import Admissions from "./Pages/Admissions/Admissions";
+import ErrorPage from "./Pages/ErrorPage/ErrorPage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path="/gallery" element={<Gallery />}></Route>
       <Route path="/gallery/:id" element={<GallerySpecific />}></Route>
       <Route path="/admissions" element={<Admissions />}></Route>
+      <Route path="*" element={<ErrorPage />}></Route>
     </Routes>
   );
 }
