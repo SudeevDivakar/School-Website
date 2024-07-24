@@ -5,6 +5,7 @@ export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const links = [
+    ["Home", " "],
     ["About Us", "about-us"],
     ["Academics", "academics"],
     ["Admissions", "admissions"],
