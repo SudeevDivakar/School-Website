@@ -7,7 +7,7 @@ export default function Navbar() {
     ["Admissions", ""],
     ["Faculty", "faculty"],
     ["Students", "students"],
-    ["Gallery", ""],
+    ["Gallery", "gallery"],
     ["Contact Us", "contact-us"],
   ];
   return (
