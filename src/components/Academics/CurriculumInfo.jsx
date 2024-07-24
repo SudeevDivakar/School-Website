@@ -1,6 +1,6 @@
 export default function CurriculumInfo() {
   return (
-    <div className="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">
+    <div className="bg-gray-100 pb-16 pt-28 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
           Our Curriculum

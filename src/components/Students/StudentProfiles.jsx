@@ -1,6 +1,6 @@
 export default function StudentProfiles() {
   return (
-    <div className="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">
+    <div className="bg-gray-100 pb-16 pt-28 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-gray-900 p-2 border-2 border-slate-600 rounded-lg mb-6 inline-block sm:text-4xl bg-white">
           Life at Springdale
@@ -135,7 +135,9 @@ export default function StudentProfiles() {
                   className="w-16 h-16 object-cover rounded-full shadow-md mr-4"
                 />
                 <div>
-                  <b className="block sm:inline">{achievement.label}</b>{" "}
+                  <b className="block text-black sm:inline">
+                    {achievement.label}
+                  </b>{" "}
                   <span className="block sm:inline">
                     - {achievement.description}
                   </span>

@@ -3,7 +3,7 @@ import Carousel from "./Carousel";
 export default function HomePageContent() {
   return (
     <div className="bg-gray-100 min-h-screen flex flex-col items-center">
-      <header className="w-full bg-blue-400 p-4 flex justify-center items-center shadow-md pt-10">
+      <header className="w-full bg-blue-400 p-4 flex justify-center items-center shadow-md pt-24">
         <img
           loading="lazy"
           src="https://i.pinimg.com/736x/48/a3/54/48a354314bb3517dabc705eb3ee8b968.jpg"

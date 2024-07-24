@@ -3,7 +3,7 @@ import { FaFileDownload } from "react-icons/fa";
 export default function AdmissionsContent() {
   return (
     <div className="p-8 bg-gray-100 flex flex-col items-center">
-      <h1 className="text-5xl font-bold mb-16 mt-3">Admissions</h1>
+      <h1 className="text-5xl font-bold mb-16 mt-24">Admissions</h1>
       <div className="w-full max-w-4xl">
         <div className="flex flex-col lg:flex-row mb-12">
           <div className="w-full lg:w-1/2 flex flex-col items-start pr-0 lg:pr-8 mb-8 lg:mb-0">

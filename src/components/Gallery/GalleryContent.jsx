@@ -33,7 +33,7 @@ export default function GalleryContent() {
     },
   ];
   return (
-    <div className="w-full flex justify-center bg-gray-100 pb-16">
+    <div className="w-full flex justify-center bg-gray-100 py-16">
       <div className="w-4/6 flex flex-col">
         <h1 className="text-5xl font-bold mt-10">Gallery</h1>
         <div className="mt-10">
